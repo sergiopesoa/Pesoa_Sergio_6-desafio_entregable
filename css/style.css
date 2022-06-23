@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.container_main {
+  background-color: pink;
+  color: #e47185; }
+
+.header {
+  display: flex;
+  flex-direction: row; }
+
+.header img {
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  border-radius: 50%; }
+
+.header h1 {
+  font-family: 'Indie Flower', italic;
+  padding: 15px; }
+
+.header p {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 25px;
+  font-family: 'Indie Flower', italic;
+  animation-name: parrafoMov;
+  animation-duration: 5s; }
+
+.navbar-nav a:hover {
+  background-color: #73e4db;
+  border-radius: 5px;
+  height: 50px; }
+
+.navbar-nav a {
+  color: #794848;
+  font-family: 'Indie Flower', italic;
+  text-decoration: none; }
+
+.navbar-nav {
+  height: 60px; }
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .presentacion img {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    padding: 15px; }
+  .presentacion h2 {
+    padding: 30px;
+    width: 500px; }
+
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: 'Indie Flower', italic;
+  color: #f02b4c; }
+
+.section2 h5 {
+  color: #490712; }
+
+.section2 p {
+  color: #490712; }
+
+.imagenesGaleria img {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 5px; }
+
+.imagenesGaleria:hover {
+  transition: .3s;
+  filter: grayscale(0%);
+  transform: scale(1.5); }
+
+.imagenesGaleria {
+  filter: grayscale(100%); }
+
+.section3 {
+  grid-area: section3;
+  background-image: linear-gradient(to top, #d0344e, pink);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center; }
+
+.section3 h3 {
+  font-family: 'Indie Flower', italic;
+  align-content: center;
+  height: 180px;
+  text-align: center;
+  font-size: 40px;
+  color: #f02b4c;
+  animation-name: parrafoMovil;
+  position: relative;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+.section3 p {
+  font-family: 'Indie Flower', italic;
+  color: #68212d;
+  font-size: 30px;
+  padding: 20px; }
+
+.section3 p:hover {
+  transform: scale(1.5); }
+
+.button {
+  text-align: center;
+  font-size: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: #aa152e;
+  border-bottom: #490712;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  animation-name: btn;
+  position: relative;
+  animation: btn 5s infinite; }
+
+.formulario {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.form {
+  margin: 20px;
+  display: flex;
+  flex-direction: row; }
+
+.area {
+  padding: 30px; }
+
+.video {
+  padding: 80px; }
+
+.tabla {
+  margin-left: 20px;
+  color: #125c43; }
+
+img {
+  border-radius: 5px; }
+
+.footer {
+  height: 180px;
+  background-color: #554044; }
+
+.footer redes {
+  display: flex;
+  flex-direction: row; }
+
+.redes {
+  float: left;
+  display: flex;
+  flex-direction: column; }
+
+.ancho a {
+  color: #531b23; }
+
+.face {
+  display: flex;
+  flex-direction: row; }
+
+.twitter {
+  display: flex;
+  flex-direction: row; }
+
+.instagram {
+  display: flex;
+  flex-direction: row; }
+
+.ancho {
+  width: 120px;
+  margin: 10px;
+  background-color: #80676b;
+  border-color: #e30f32;
+  border-radius: 5px; }
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: auto;
+  width: auto; }
+
+.textoPrincipal h2 {
+  font-family: 'Indie Flower', italic;
+  padding: 20px; }
+
+.usos p {
+  font-family: 'Indie Flower', italic;
+  font-size: 20px;
+  padding: 20px;
+  color: #eb506a;
+  max-width: 360px; }
+
+.usos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  align-items: center;
+  align-content: center; }
+
+@keyframes parrafoMov {
+  10% {
+    font-size: 5, 5px; }
+  20% {
+    font-size: 6, 5px; }
+  30% {
+    font-size: 7, 5px; }
+  40% {
+    font-size: 8, 5px; }
+  50% {
+    font-size: 10px; }
+  60% {
+    font-size: 11, 5px; }
+  70% {
+    font-size: 13.5px; }
+  80% {
+    font-size: 15, 5px; }
+  90% {
+    font-size: 17, 5px; }
+  100% {
+    font-size: 20px; } }
+
+@keyframes parrafoMovil {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 200px;
+    top: 0px; }
+  50% {
+    left: 200px;
+    top: 200px; }
+  75% {
+    left: 0px;
+    top: 200px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+
+@keyframes btn {
+  from {
+    left: 0px; }
+  to {
+    left: 300px; } }

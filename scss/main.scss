@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+margin: 0;
+
+}
+.container_main {
+    background-color: pink;
+    color: #e47185;
+}
+
+
+@import './secciones/header.scss';
+
+@import'./secciones/index.scss';
+
+@import './secciones/footer.scss';
+
+@import './secciones/galeria.scss';
+
+
+@keyframes parrafoMov {
+    10% {
+        font-size: 5, 5px;
+    }
+
+    20% {
+        font-size: 6, 5px;
+    }
+
+    30% {
+        font-size: 7, 5px;
+    }
+
+    40% {
+        font-size: 8, 5px;
+    }
+
+    50% {
+        font-size: 10px;
+    }
+
+    60% {
+        font-size: 11, 5px;
+    }
+
+    70% {
+        font-size: 13.5px;
+    }
+
+    80% {
+        font-size: 15, 5px;
+    }
+
+    90% {
+        font-size: 17, 5px;
+    }
+
+    100% {
+        font-size: 20px;
+    }
+}
+@keyframes parrafoMovil{
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  @keyframes btn{
+    from {left: 0px;}
+  to {left: 300px;}
+  }
+    
