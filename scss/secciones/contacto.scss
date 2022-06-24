@@ -1,0 +1,49 @@
+.formulario {
+    display: flex;
+    align-content: center;
+    margin: 100px;
+    width: 425px;
+    height: 1050px;
+}
+.formulario label {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  
+}
+.formulario textarea{
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+
+.video{
+    
+    padding-top:60px;
+    padding-bottom:30px;
+}
+@media(min-width:425){
+    .formulario {
+        
+        label.items{
+        width:250px ;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 150px;
+    }
+    .area{
+        padding-right: 120px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 360px;
+        padding-left: 120px;
+    }
+    }
+        
+    
+    
+    }

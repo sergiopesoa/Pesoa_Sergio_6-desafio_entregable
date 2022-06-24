@@ -9,6 +9,25 @@
     width: auto;
 
 }
+.imagenesGaleria img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+.imagenesGaleria:hover {
+    transition: .3s;
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.imagenesGaleria {
+    filter: grayscale(100%);
+}
+
+
+
+
 
 .textoPrincipal h2 {
     font-family: 'Indie Flower', italic;
@@ -30,4 +49,32 @@
     height: auto;
     align-items: center;
     align-content: center;
+}
+.usos button{
+    animation-name: btn;
+}
+@keyframes btn{
+    from {left: 0px;}
+  to {left: 200px;}
+
+}
+
+
+
+
+@media (max-width: 425px){
+    .galeria {
+       margin-top: 70px;
+        
+    }
+    @keyframes btn{
+        from {left: 0px;}
+      to {left: 0px;}
+      }
+     .button {
+        background-color: rgb(113, 195, 168);
+        color: rgb(32, 97, 97);
+    
+} 
+    
 }

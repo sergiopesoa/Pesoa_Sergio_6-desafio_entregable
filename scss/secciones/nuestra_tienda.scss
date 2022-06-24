@@ -1,0 +1,33 @@
+.tabla{
+    margin-left: 20px;
+    color:rgb(18, 92, 67)
+} img{
+    border-radius: 5px;
+}
+
+
+
+
+@media(max-width: 425px) {
+    .tabla {
+        display: flex;
+        flex-direction: columns ;  
+
+    }
+      
+    tr{
+        width: 115px;
+    }
+       
+    
+    td{
+        width: 115px;
+    }
+    img{
+        width: 150px;
+    }
+}
+.tabla{
+    margin-top: 80px;
+    
+}

@@ -16,9 +16,11 @@ margin: 0;
 @import './secciones/footer.scss';
 
 @import './secciones/galeria.scss';
+@import './secciones/contacto.scss';
+@import './secciones/quienes_somos.scss';
+@import './secciones/nuestra_tienda.scss';
 
-
-@keyframes parrafoMov {
+@keyframes parrafoMov{
     10% {
         font-size: 5, 5px;
     }
@@ -59,15 +61,3 @@ margin: 0;
         font-size: 20px;
     }
 }
-@keyframes parrafoMovil{
-    0%   { left:0px; top:0px;}
-    25%  { left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0px; top:200px;}
-    100% {left:0px; top:0px;}
-  }
-  @keyframes btn{
-    from {left: 0px;}
-  to {left: 300px;}
-  }
-    
