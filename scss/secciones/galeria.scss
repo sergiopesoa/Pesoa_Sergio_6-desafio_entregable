@@ -1,3 +1,5 @@
+$familiaFuentes:''Indie Flower', italic' ;
+
 .galeria {
     display: flex;
     flex-direction: column;
@@ -25,17 +27,14 @@
     filter: grayscale(100%);
 }
 
-
-
-
-
 .textoPrincipal h2 {
-    font-family: 'Indie Flower', italic;
+    
+    font-family: $familiaFuentes;
     padding: 20px;
 }
 
 .usos p {
-    font-family: 'Indie Flower', italic;
+    font-family: $familiaFuentes;
     font-size: 20px;
     padding: 20px;
     color: rgb(235, 80, 106);
@@ -58,9 +57,6 @@
   to {left: 200px;}
 
 }
-
-
-
 
 @media (max-width: 425px){
     .galeria {

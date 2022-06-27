@@ -24,13 +24,14 @@
 }
 
 .twitter {
-    display: flex;
-    flex-direction: row;
+    @extend .face;
+    color: rgb(116, 226, 14);
+
 }
 
 .instagram {
-    display: flex;
-    flex-direction: row;
+    @extend .face;
+    color: aquamarine;
 }
 
 .ancho {

@@ -175,17 +175,15 @@
 .ancho a {
   color: #531b23; }
 
-.face {
+.face, .twitter, .instagram {
   display: flex;
   flex-direction: row; }
 
 .twitter {
-  display: flex;
-  flex-direction: row; }
+  color: #74e20e; }
 
 .instagram {
-  display: flex;
-  flex-direction: row; }
+  color: aquamarine; }
 
 .ancho {
   width: 120px;
@@ -218,11 +216,11 @@
   filter: grayscale(100%); }
 
 .textoPrincipal h2 {
-  font-family: 'Indie Flower', italic;
+  font-family: "" Indie Flower ", italic";
   padding: 20px; }
 
 .usos p {
-  font-family: 'Indie Flower', italic;
+  font-family: "" Indie Flower ", italic";
   font-size: 20px;
   padding: 20px;
   color: #eb506a;

@@ -1,3 +1,15 @@
+$estilos:(
+    display: flex,
+    flex-direction: column,
+    justify-content: center,
+    align-content: center,
+    align-items: center,
+);
+@mixin medidas($width,$heigt){
+    width: $width;
+    height: $heigt;
+}
+
 .navbar-nav a:hover {
     background-color: rgb(115, 228, 219);
     border-radius: 5px;
@@ -11,12 +23,11 @@
     height: 60px;
 }
 .presentacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display:map-get($estilos,display);
+    flex-direction:map-get($estilos,flex-direction);
+    align-items:map-get($estilos,align-items);
          img {
-    width: 400px;
-    height: 400px;
+            @include medidas(400px,400px);
     border-radius: 5px;
     padding: 15px;
          }
@@ -27,11 +38,11 @@
          }
 
          .descripcion {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
+            display: map-get($estilos,display );
+            flex-direction: map-get($estilos,flex-direction);
+            justify-content: map-get($estilos,justify-content);
+            align-content: map-get($estilos,align-content);
+            align-items: map-get($estilos,align-items);
             font-family: 'Indie Flower', italic;
             color: rgb(240, 43, 76);
         }
@@ -47,11 +58,11 @@
 .section3 {
     grid-area: section3;
     background-image: linear-gradient(to top, rgb(208, 52, 78), pink);
-    display: flex;
-    flex-direction: column;
+    display:map-get($estilos,display);
+    flex-direction: map-get($estilos,flex-direction) ;
     align-content: center;
     justify-content: space-between;
-    align-items: center;
+    align-items: map-get($estilos,align-items);
 }
 
 .section3 h3 {
