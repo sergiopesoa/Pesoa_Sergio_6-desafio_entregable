@@ -140,6 +140,9 @@
     text-align: center;
     font-size: 40px;
     color: #2bf0e0; }
+  .descripcion h2 {
+    width: 340px;
+    padding-left: 10px; }
   .section1 {
     margin-top: 75px;
     padding-top: 30px; }
