@@ -259,7 +259,11 @@
       left: 0px; } }
   .button {
     background-color: #71c3a8;
-    color: #206161; } }
+    color: #206161; }
+  .textoPrincipal h2 {
+    width: 340px; }
+  .usos p {
+    width: 300px; } }
 
 .formulario {
   display: flex;
@@ -332,7 +336,8 @@
   .historia h2 {
     margin-top: 70px;
     width: 340px;
-    font-size: 35px; } }
+    font-size: 20px;
+    text-align: justify; } }
 
 .tabla {
   margin-left: 20px;
