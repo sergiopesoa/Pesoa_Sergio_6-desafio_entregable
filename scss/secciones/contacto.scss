@@ -3,7 +3,8 @@
     align-content: center;
     margin: 100px;
     width: 425px;
-    height: 1050px;
+    height: 450px;
+    flex-direction: row;
 }
 .formulario label {
     margin: 20px;
@@ -17,33 +18,62 @@
     vertical-align: middle;
     padding: 30px;
 }
-
+.formulario form{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
 
 .video{
     
     padding-top:60px;
     padding-bottom:30px;
+    padding-left: 60px;
 }
-@media(min-width:425){
+@media(max-width:375px){
     .formulario {
-        
-        label.items{
-        width:250px ;
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            margin-top: 150px;
-    }
-    .area{
-        padding-right: 120px;
         display: flex;
         flex-direction: column;
         align-content: center;
+    margin-top: 70px;
+    margin-left: 0px;
+        width: 375px;
+        height: 950px;}
+    .formulario form{
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start ;
+        }
+        
+        
+        label.items{
+        width:350px ;
+            align-items:flex-start;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+    }
+    .area{
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-content: auto;
         width: 360px;
         padding-left: 120px;
     }
+     textarea{
+width: 220px;
+align-content: auto;
+
     }
+    .video{
+    
+        padding-top:60px;
+        padding-bottom:30px;
+        padding-left: 10px;
+    }
+}
+    
         
+
     
-    
-    }

@@ -58,10 +58,12 @@ $familiaFuentes:''Indie Flower', italic' ;
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 375px){
     .galeria {
-       margin-top: 70px;
-        
+       margin-top: 120px;
+        h2{
+            width: 240px;
+        }
     }
     @keyframes btn{
         from {left: 0px;}

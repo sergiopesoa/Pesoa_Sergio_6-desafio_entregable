@@ -1,8 +1,14 @@
-@media (min-width: 425px){
-    h2{
+.historia h2{
+    width: 850px;
+    font-size: 35px;
+}
+
+
+@media (max-width: 375px){
+    .historia  h2{
        margin-top: 70px;
-        width: 350px;
-        font-size: 20px;
+        width: 340px;
+        font-size: 15px;
     }
     
 } 

@@ -117,7 +117,7 @@ $estilos:(
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
    
     h1 {
         font-size: 30px;
@@ -132,6 +132,7 @@ $estilos:(
        
 }   
         .section1{ margin-top: 75px;
+            padding-top: 30px;
           
             @keyframes parrafoMovil{
                 0%   { left:0px; top:0px;}
