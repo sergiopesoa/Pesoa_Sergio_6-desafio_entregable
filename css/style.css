@@ -194,7 +194,9 @@
     height: 300px; }
   .carousel-inner img {
     height: 300px;
-    width: 100%; } }
+    width: 100%; }
+  .linea {
+    margin-top: 50px; } }
 
 .footer {
   height: 180px;
@@ -254,13 +256,14 @@
 
 .textoPrincipal h2 {
   font-family: "" Indie Flower ", italic";
-  padding: 20px; }
+  padding: 20px;
+  color: #f02b4c; }
 
 .usos p {
   font-family: "" Indie Flower ", italic";
   font-size: 20px;
   padding: 20px;
-  color: #eb506a;
+  color: #f02b4c;
   max-width: 360px; }
 
 .usos {
@@ -363,7 +366,8 @@
 
 .historia h2 {
   width: 850px;
-  font-size: 35px; }
+  font-size: 35px;
+  color: #f02b4c; }
 
 @media (max-width: 375px) {
   .historia h2 {
@@ -374,7 +378,7 @@
 
 .tabla {
   margin-left: 20px;
-  color: #125c43; }
+  color: #f02b4c; }
 
 img {
   border-radius: 5px; }
