@@ -3,8 +3,8 @@
   margin: 0; }
 
 .container_main {
-  background-color: pink;
-  color: #e47185; }
+  background-color: white;
+  color: #d27c7c; }
 
 .header {
   display: flex;
@@ -17,10 +17,12 @@
   border-radius: 50%; }
 
 .header h1 {
+  color: #f02b4c;
   font-family: 'Indie Flower', italic;
   padding: 15px; }
 
 .header p {
+  color: #f02b4c;
   max-width: 500px;
   margin: 0 auto;
   padding-top: 25px;
@@ -28,15 +30,25 @@
   animation-name: parrafoMov;
   animation-duration: 5s; }
 
+.linea {
+  border-top: 1px solid #ec566f;
+  height: 2px;
+  max-width: 1200px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
+
 .navbar-nav a:hover {
   background-color: #73e4db;
   border-radius: 5px;
   height: 50px; }
 
 .navbar-nav a {
-  color: #794848;
+  color: #f02b4c;
   font-family: 'Indie Flower', italic;
   text-decoration: none; }
+
+.navbar-nav a link {
+  color: #f02b4c; }
 
 .navbar-nav {
   height: 60px; }
@@ -61,7 +73,14 @@
   align-content: center;
   align-items: center;
   font-family: 'Indie Flower', italic;
-  color: #f02b4c; }
+  color: #f02b4c;
+  padding-top: 50px; }
+
+.descripcion p {
+  max-width: 50vw; }
+
+.carousel-inner {
+  justify-content: center; }
 
 .section2 h5 {
   color: #490712; }
@@ -69,9 +88,17 @@
 .section2 p {
   color: #490712; }
 
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.section2 img {
+  height: 500px; }
+
 .section3 {
   grid-area: section3;
-  background-image: linear-gradient(to top, #d0344e, pink);
+  background-image: linear-gradient(to top, pink, white);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -142,7 +169,8 @@
     color: #2bf0e0; }
   .descripcion p {
     width: 340px;
-    padding-left: 10px; }
+    padding-left: 10px;
+    padding-top: 90px; }
   .section1 {
     margin-top: 75px;
     padding-top: 30px; }
@@ -161,11 +189,16 @@
       top: 0px; }
     100% {
       left: 0px;
-      top: 0px; } } }
+      top: 0px; } }
+  .section2 {
+    height: 300px; }
+  .carousel-inner img {
+    height: 300px;
+    width: 100%; } }
 
 .footer {
   height: 180px;
-  background-color: #554044; }
+  background-color: pink; }
 
 .footer redes {
   display: flex;
@@ -345,6 +378,8 @@
 
 img {
   border-radius: 5px; }
+  img table {
+    margin: 0 auto; }
 
 @media (max-width: 375px) {
   .tabla {
