@@ -25,11 +25,11 @@ $estilos:(
     font-family: 'Indie Flower', italic;
     text-decoration: none;
 }
-.navbar-nav a{
-    link {
-    color:  rgb(240, 43, 76);
-}}
 
+   
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color:  rgb(240, 43, 76);
+}
 .navbar-nav {
     height: 60px;
 }
