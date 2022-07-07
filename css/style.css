@@ -196,7 +196,7 @@
     height: 300px;
     width: 100%; }
   .linea {
-    margin-top: 50px; } }
+    margin-top: 90px; } }
 
 .footer {
   height: 180px;
@@ -230,6 +230,16 @@
   background-color: #80676b;
   border-color: #e30f32;
   border-radius: 5px; }
+
+.linea {
+  border-top: 1px solid #ec566f;
+  height: 2px;
+  max-width: 1200px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
+
+.container_galeria {
+  background-image: linear-gradient(to top, pink, white); }
 
 .galeria {
   display: flex;
@@ -285,7 +295,8 @@
 
 @media (max-width: 375px) {
   .galeria {
-    margin-top: 120px; }
+    margin-top: 100px;
+    height: auto; }
     .galeria h2 {
       width: 240px; }
   @keyframes btn {
@@ -297,17 +308,30 @@
     background-color: #71c3a8;
     color: #206161; }
   .textoPrincipal h2 {
-    width: 340px; }
+    width: 340px;
+    margin-top: 10px; }
   .usos p {
-    width: 300px; } }
+    width: 300px; }
+  .container_galeria {
+    margin-top: 140px; } }
+
+.linea {
+  border-top: 1px solid #ec566f;
+  height: 2px;
+  max-width: 1200px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
 
 .formulario {
   display: flex;
   align-content: center;
-  margin: 100px;
+  margin-top: 100px;
   width: 425px;
   height: 450px;
   flex-direction: row; }
+
+.container_formulario {
+  background-image: linear-gradient(to top, pink, white); }
 
 .formulario label {
   margin: 20px;
@@ -323,7 +347,7 @@
 .formulario form {
   display: flex;
   flex-direction: row;
-  height: 1000px; }
+  height: auto; }
 
 .video {
   padding-top: 60px;
@@ -331,6 +355,8 @@
   padding-left: 60px; }
 
 @media (max-width: 375px) {
+  .linea {
+    margin-top: 90px; }
   .formulario {
     display: flex;
     flex-direction: column;
@@ -369,12 +395,24 @@
   font-size: 35px;
   color: #f02b4c; }
 
+.linea {
+  border-top: 1px solid #ec566f;
+  height: 2px;
+  max-width: 1200px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
+
+.presentacion {
+  background-image: linear-gradient(to top, pink, white); }
+
 @media (max-width: 375px) {
   .historia h2 {
     margin-top: 70px;
     width: 340px;
     font-size: 20px;
-    text-align: justify; } }
+    text-align: justify; }
+  .linea {
+    margin-top: 90px; } }
 
 .tabla {
   margin-left: 20px;
@@ -446,7 +484,9 @@ img {
     display: flex;
     flex-direction: column;
     height: auto;
-    align-items: center; } }
+    align-items: center; }
+  .linea {
+    margin-top: 90px; } }
 
 @keyframes parrafoMov {
   10% {

@@ -3,7 +3,16 @@
     font-size: 35px;
     color: rgb(240,43,76);
 }
-
+.linea {
+    border-top: 1px solid rgb(236, 86, 111);
+    height: 2px;
+    max-width: 1200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+  .presentacion{
+    background-image: linear-gradient(to top, pink,white);
+  }
 
 @media (max-width: 375px){
     .historia  h2{
@@ -12,5 +21,7 @@
         font-size: 20px;
         text-align: justify;
     }
-    
+    .linea{
+        margin-top: 90px;
+    }
 } 

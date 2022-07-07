@@ -1,4 +1,16 @@
 $familiaFuentes:''Indie Flower', italic' ;
+.linea {
+    border-top: 1px solid rgb(236, 86, 111);
+    height: 2px;
+    max-width: 1200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+.container_galeria{
+
+    background-image: linear-gradient(to top, pink,white);
+
+}
 
 .galeria {
     display: flex;
@@ -9,7 +21,6 @@ $familiaFuentes:''Indie Flower', italic' ;
     margin-right: 150px;
     height: auto;
     width: auto;
-
 }
 .imagenesGaleria img {
     max-width: 400px;
@@ -64,11 +75,14 @@ $familiaFuentes:''Indie Flower', italic' ;
 
 @media (max-width: 375px){
     .galeria {
-       margin-top: 120px;
+       margin-top: 100px;
+       height: auto;
         h2{
             width: 240px;
+
         }
     }
+    
     @keyframes btn{
         from {left: 0px;}
       to {left: 0px;}
@@ -80,8 +94,12 @@ $familiaFuentes:''Indie Flower', italic' ;
 } 
 .textoPrincipal h2 {
     width: 340px;
+    margin-top: 10px;
 }
 .usos p{
     width: 300px;
 }
+.container_galeria{
+    margin-top: 140px;
+    }
 }
