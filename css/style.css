@@ -385,6 +385,36 @@ img {
   img table {
     margin: 0 auto; }
 
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 500px; }
+
+.main2 {
+  display: flex;
+  flex-direction: row;
+  height: 500px; }
+
+.main3 {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  background-image: linear-gradient(to top, pink, white); }
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; }
+
+.linea {
+  border-top: 1px solid #ec566f;
+  height: 2px;
+  max-width: 1200px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
+
 @media (max-width: 375px) {
   .tabla {
     display: flex;
@@ -394,10 +424,28 @@ img {
   td {
     width: 115px; }
   img {
-    width: 150px; } }
-
-.tabla {
-  margin-top: 80px; }
+    width: 150px; }
+  .tabla {
+    margin-top: 80px; }
+    .tabla .linea {
+      margin-top: 90px; }
+  .card {
+    max-width: 350px; }
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; } }
 
 @keyframes parrafoMov {
   10% {
