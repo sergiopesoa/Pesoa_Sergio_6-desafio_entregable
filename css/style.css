@@ -435,7 +435,8 @@ img {
     display: flex;
     flex-direction: column;
     height: auto;
-    align-items: center; }
+    align-items: center;
+    margin-top: 70px; }
   .main2 {
     display: flex;
     flex-direction: column;
