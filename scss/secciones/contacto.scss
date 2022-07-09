@@ -17,6 +17,7 @@
 }
  .container_formulario{
        background-image: linear-gradient(to top, pink,white);
+       padding-top: 100px;
 }
 .formulario label {
     margin: 20px;
@@ -35,7 +36,9 @@
     flex-direction: row;
     height:auto;
 }
-
+.items input{
+    margin: 5px;
+}
 .video{
     
     padding-top:60px;
@@ -52,17 +55,20 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-    margin-top: 70px;
-    margin-left: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
         width: 375px;
-        height: 950px;
+        height: 1000px;
+        
      }
-    .formulario form{
+    .formulario form {
             display: flex;
             flex-direction: column;
             align-content: flex-start ;
         }
-        
+        .items input{
+               margin: 5px;
+        }
         
         label.items{
         width:350px ;
@@ -71,17 +77,19 @@
             flex-direction: column;
             margin-top: 100px;
     }
+
+
     .area{
         padding-right: 0px;
         display: flex;
         flex-direction: column;
         align-content: auto;
         width: 360px;
-        padding-left: 120px;
+        padding-left: 70px;
     }
      textarea{
-width: 200px;
-align-content: auto;
+        width: 200px;
+        align-content: auto;
 
     }
     .video{
