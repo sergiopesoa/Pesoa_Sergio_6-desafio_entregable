@@ -35,7 +35,8 @@
   height: 2px;
   max-width: 1200px;
   padding: 0;
-  margin: 20px auto 0 auto; }
+  margin: 20px auto 0 auto;
+  margin-top: 90px; }
 
 .navbar-nav a:hover {
   background-color: #c4e4e3;
@@ -194,9 +195,7 @@
     height: 300px; }
   .carousel-inner img {
     height: 300px;
-    width: 100%; }
-  .linea {
-    margin-top: 90px; } }
+    width: 100%; } }
 
 @media (max-width: 425px) {
   h1 {
@@ -237,11 +236,9 @@
     height: 300px;
     width: 100%; }
   .linea {
-    margin-top: 100px; } }
+    margin-top: 90px; } }
 
 @media (max-width: 768px) {
-  .linea {
-    margin-top: 100px; }
   .section3 p {
     font-size: 20px; }
   .section3 p:hover {
@@ -263,9 +260,7 @@
       top: 0px; }
     100% {
       left: 0px;
-      top: 0px; } }
-  .linea {
-    margin-top: 100px; } }
+      top: 0px; } } }
 
 .footer {
   height: 180px;

@@ -15,6 +15,7 @@ $estilos:(
     max-width: 1200px;
     padding: 0;
     margin: 20px auto 0 auto;
+    margin-top: 90px;
   }
 .navbar-nav a:hover {
     background-color: #c4e4e3;
@@ -178,9 +179,7 @@ $estilos:(
             
 
         }
-.linea{
-            margin-top: 90px;
-        }
+
     }
 @media (max-width: 425px) {
    
@@ -225,13 +224,11 @@ $estilos:(
     
             }
 .linea{
-                margin-top: 100px;
+                margin-top: 90px;
             }
         }
  @media (max-width: 768px){
- .linea{
-                margin-top: 100px;
-            }
+ 
  .section3 p{
                 font-size: 20px;
             }
@@ -248,7 +245,4 @@ $estilos:(
                 100% {left:0px; top:0px;}
     
         }
-.linea{
-            margin-top: 100px;
-        }
-}
+    }
