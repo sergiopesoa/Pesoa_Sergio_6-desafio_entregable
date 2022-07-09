@@ -38,7 +38,7 @@
   margin: 20px auto 0 auto; }
 
 .navbar-nav a:hover {
-  background-color: #73e4db;
+  background-color: #c4e4e3;
   border-radius: 5px;
   height: 50px; }
 
@@ -198,6 +198,75 @@
   .linea {
     margin-top: 90px; } }
 
+@media (max-width: 425px) {
+  h1 {
+    font-size: 30px; }
+  h3 {
+    font-family: 'Indie Flower', italic;
+    align-content: center;
+    height: 180px;
+    text-align: center;
+    font-size: 40px;
+    color: #2bf0e0; }
+  .descripcion p {
+    width: 390px;
+    padding-left: 10px;
+    padding-top: 90px; }
+  .section1 {
+    margin-top: 75px;
+    padding-top: 30px; }
+  @keyframes parrafoMovil {
+    0% {
+      left: 0px;
+      top: 0px; }
+    25% {
+      left: 0px;
+      top: 0px; }
+    50% {
+      left: 0px;
+      top: 0px; }
+    75% {
+      left: 0px;
+      top: 0px; }
+    100% {
+      left: 0px;
+      top: 0px; } }
+  .section2 {
+    height: 300px; }
+  .carousel-inner img {
+    height: 300px;
+    width: 100%; }
+  .linea {
+    margin-top: 100px; } }
+
+@media (max-width: 768px) {
+  .linea {
+    margin-top: 100px; }
+  .section3 p {
+    font-size: 20px; }
+  .section3 p:hover {
+    transform: scale(1); } }
+
+@media (max-width: 1024px) {
+  @keyframes parrafoMovil {
+    0% {
+      left: 0px;
+      top: 0px; }
+    25% {
+      left: 0px;
+      top: 0px; }
+    50% {
+      left: 0px;
+      top: 0px; }
+    75% {
+      left: 0px;
+      top: 0px; }
+    100% {
+      left: 0px;
+      top: 0px; } }
+  .linea {
+    margin-top: 100px; } }
+
 .footer {
   height: 180px;
   background-color: pink; }
@@ -223,7 +292,7 @@
   color: #74e20e; }
 
 .instagram {
-  color: aquamarine; }
+  color: #c4e4e3; }
 
 .ancho {
   width: 120px;
