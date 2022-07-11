@@ -487,14 +487,11 @@
   .linea {
     margin-top: 90px; } }
 
-.tabla {
-  margin-left: 20px;
-  color: #f02b4c; }
-
-img {
-  border-radius: 5px; }
-  img table {
-    margin: 0 auto; }
+.h2 {
+  font-size: 5px;
+  color: #f02b4c;
+  font-family: 'Indie Flower', italic;
+  padding: 3rem; }
 
 .main {
   display: flex;
@@ -507,6 +504,11 @@ img {
   height: 500px; }
 
 .main3 {
+  display: flex;
+  flex-direction: row;
+  height: 500px; }
+
+.main4 {
   display: flex;
   flex-direction: row;
   height: 500px;
@@ -531,19 +533,6 @@ img {
   color: #f02b4c; }
 
 @media (max-width: 375px) {
-  .tabla {
-    display: flex;
-    flex-direction: columns; }
-  tr {
-    width: 115px; }
-  td {
-    width: 115px; }
-  img {
-    width: 150px; }
-  .tabla {
-    margin-top: 80px; }
-    .tabla .linea {
-      margin-top: 90px; }
   .card {
     max-width: 350px; }
   .main {
@@ -558,6 +547,65 @@ img {
     height: auto;
     align-items: center; }
   .main3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main4 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .linea {
+    margin-top: 90px; } }
+
+@media (max-width: 425px) {
+  .card {
+    max-width: 350px; }
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 70px; }
+  .main2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main4 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .linea {
+    margin-top: 90px; } }
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 350px; }
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 70px; }
+  .main2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .main4 {
     display: flex;
     flex-direction: column;
     height: auto;
