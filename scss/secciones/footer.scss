@@ -1,44 +1,83 @@
 .footer  {
-    height: 180px;
-    background-color: pink,
+    height: 240px;
+    font-family:$familiaFuente;
+    padding-left: 40px;
+    width: 100%;
 }
 
 .footer redes {
     display: flex;
     flex-direction: row;
+    
 }
 
 .redes {
     float: left;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    align-items: center;
+    
+}
+.titulo h3{
+    font-family:$familiaFuente;
+}
+.h4{
+    padding-top: 50px;
 }
 
 .ancho a {
-    color: rgb(83, 27, 35);
+    color: rgb(86, 102, 129);
     padding: 25px;
 }
 
 .face {
     display: flex;
     flex-direction: row;
+    color: rgb(86, 102, 129);
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .twitter {
     @extend .face;
-    color: rgb(116, 226, 14);
-
+    color: rgb(86, 102, 129);
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .instagram {
     @extend .face;
-    color:#c4e4e3;
+    color: rgb(86, 102, 129); 
+    text-decoration: none;
+    list-style-type: none;
 }
-
 .ancho {
     width: 120px;
     margin: 10px;
-    background-color: aquamarine;
+    text-decoration: none;
     border-color: rgb(227, 15, 50);
     border-radius: 5px;
 }
+
+@media (max-width: 375px){
+
+.footer {
+    height: 300px;
+}  
+.redes{
+    padding-right: 3rem;
+    align-items: flex-end;
+}
+}
+
+@media (max-width: 425px){
+
+    .footer {
+        height: 300px;
+    }  
+    .redes{
+        padding-right: 3rem;
+        align-items: flex-end;
+    }
+    }

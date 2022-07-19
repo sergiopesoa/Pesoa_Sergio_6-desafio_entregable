@@ -1,7 +1,12 @@
+.historia{
+  display: flex;
+  justify-content: center;
+}
+
 .historia h2{
     width: 850px;
-    font-size: 35px;
-    color: rgb(240,43,76);
+    font-size: 25px;
+    color: $colorFuenteDos;
 }
 .linea {
     border-top: 1px solid rgb(236, 86, 111);
@@ -10,18 +15,46 @@
     padding: 0;
     margin: 20px auto 0 auto;
   }
-  .presentacion{
-    background-image: linear-gradient(to top, pink,white);
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+   padding-top: 50px;
   }
 
+.videoQuienesSomos{
+    padding-left: 200px;
+  }
+.videoQuienesSomos video{
+    width: 350px;
+    height: 350px;
+  }
+ 
+  
+
 @media (max-width: 375px){
-    .historia  h2{
-       margin-top: 70px;
-        width: 340px;
-        font-size: 20px;
+  .linea{
+    margin-top: 90px;
+}
+} 
+  .presentacion{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    // padding-top: 200px;
+    align-items: center;
+  } 
+.historia  h2{
+      //  margin-top: 70px;
+        width: auto;
+        font-size: auto;
         text-align: justify;
     }
-    .linea{
-        margin-top: 90px;
+.videoQuienesSomos{
+      width: auto;
+      text-align: center;
+      padding-left: 0px;
     }
-} 
+
+ 

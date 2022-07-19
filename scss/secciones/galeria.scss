@@ -1,4 +1,3 @@
-$familiaFuentes:''Indie Flower', italic' ;
 .linea {
     border-top: 1px solid rgb(236, 86, 111);
     height: 2px;
@@ -6,11 +5,6 @@ $familiaFuentes:''Indie Flower', italic' ;
     padding: 0;
     margin: 20px auto 0 auto;
   }
-.container_galeria{
-
-    background-image: linear-gradient(to top, pink,white);
-
-}
 
 .galeria {
     display: flex;
@@ -40,16 +34,16 @@ $familiaFuentes:''Indie Flower', italic' ;
 
 .textoPrincipal h2 {
     
-    font-family: $familiaFuentes;
+    font-family: $familiaFuente;
     padding: 20px;
-    color:rgb(240, 43, 76);
+    color:$colorFuente;
 }
 
 .usos p {
-    font-family: $familiaFuentes;
+    font-family: $familiaFuente;
     font-size: 20px;
     padding: 20px;
-    color:rgb(240, 43, 76) ;
+    color:$colorFuente ;
     max-width: 360px;
 }
 
@@ -61,16 +55,6 @@ $familiaFuentes:''Indie Flower', italic' ;
     align-items: center;
     align-content: center;
 }
-.usos button{
-    animation-name: btn;
-}
-@keyframes btn{
-    from {left: 0px;}
-  to {left: 200px;}
-
-}
-
-
 
 
 @media (max-width: 375px){
@@ -82,16 +66,7 @@ $familiaFuentes:''Indie Flower', italic' ;
 
         }
     }
-    
-    @keyframes btn{
-        from {left: 0px;}
-      to {left: 0px;}
-      }
-     .button {
-        background-color: rgb(113, 195, 168);
-        color: rgb(32, 97, 97);
-    
-} 
+ 
 .textoPrincipal h2 {
     width: 340px;
     margin-top: 10px;
@@ -101,5 +76,72 @@ $familiaFuentes:''Indie Flower', italic' ;
 }
 .container_galeria{
     margin-top: 140px;
+    height: auto;
+    }
+}
+@media (max-width: 425px){
+    .galeria {
+       margin-top: 100px;
+       height: auto;
+        h2{
+            width: 240px;
+
+        }
+    }
+ 
+.textoPrincipal h2 {
+    width: 340px;
+    margin-top: 10px;
+}
+.usos p{
+    width: 300px;
+}
+.container_galeria{
+    margin-top: 140px;
+    height: auto;
+    }
+}
+@media (max-width: 768px){
+    .galeria {
+       margin-top: 100px;
+       height: auto;
+        h2{
+            width: 240px;
+
+        }
+    }
+ 
+.textoPrincipal h2 {
+    width: 340px;
+    margin-top: 10px;
+}
+.usos p{
+    width: 300px;
+}
+.container_galeria{
+    margin-top: 140px;
+    height: auto;
+    }
+}
+@media (max-width: 1024px){
+    .galeria {
+       margin-top: 100px;
+       height: auto;
+        h2{
+            width: 240px;
+
+        }
+    }
+ 
+.textoPrincipal h2 {
+    width: 340px;
+    margin-top: 10px;
+}
+.usos p{
+    width: 300px;
+}
+.container_galeria{
+    margin-top: 140px;
+    height: auto;
     }
 }

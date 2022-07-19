@@ -1,13 +1,47 @@
-$estilos:(
-    display: flex,
-    flex-direction: column,
-    justify-content: center,
-    align-content: center,
-    align-items: center,
-);
 @mixin medidas($width,$heigt){
     width: $width;
     height: $heigt;
+}
+.container_main {
+    font-family:$familiaFuente ;
+    color: $colorFuente;
+    height: auto;
+    padding: 100px;
+    background-image: linear-gradient(to top, pink,white);
+}
+ 
+.navbar-nav a:hover {
+    background-color: #c4e4e3;
+    border-radius: 5px;
+    height: 50px;}
+.navbar-nav a {
+    color: $colorFuente;
+    font-family: $familiaFuente;
+    text-decoration: none;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link{
+    padding: 20px;
+    font-size: 1.5em;
+    color:$colorFuente;
+}
+#navbarNavAltMarkup > div > a.nav-link.active{
+    color:$colorFuente;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 20px;
+    font-size: 1.5em;
+    
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+
+.navbar-nav {
+    height: 60px;
+    }
+.container-fluid{
+    width: 1300px;
+    padding-left: 100px;
 }
 .linea {
     border-top: 1px solid rgb(236, 86, 111);
@@ -15,237 +49,205 @@ $estilos:(
     max-width: 1200px;
     padding: 0;
     margin: 20px auto 0 auto;
-    margin-top: 90px;
-  }
-.navbar-nav a:hover {
-    background-color: #c4e4e3;
-    border-radius: 5px;
-    height: 50px;}
- .navbar-nav a {
-    color: rgb(240, 43, 76);
-    font-family: 'Indie Flower', italic;
-    text-decoration: none;
 }
-
-   
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
-    color:  rgb(240, 43, 76);
-}
-.navbar-nav {
-    height: 60px;
-}
-.presentacion{
-    display:map-get($estilos,display);
-    flex-direction:map-get($estilos,flex-direction);
-    align-items:map-get($estilos,align-items);
-         img {
-            @include medidas(400px,400px);
-    border-radius: 5px;
-    padding: 15px;
-         }
-    h2 {
-        padding: 30px;
-        width: 500px;
-    }
-         }
-
+  
  .descripcion {
             display: map-get($estilos,display );
             flex-direction: map-get($estilos,flex-direction);
             justify-content: map-get($estilos,justify-content);
             align-content: map-get($estilos,align-content);
             align-items: map-get($estilos,align-items);
-            font-family: 'Indie Flower', italic;
-            color: rgb(240, 43, 76);
+            font-family:$familiaFuente;
+            font-size: larger;
+            color:$colorFuenteDos;
             padding-top: 50px;
         }
- .descripcion p{
-            max-width: 700px;
+.descripcion h2{
+           padding: 16px;
+           color: #fd6d86;
         }
- .carousel-inner{
-            justify-content: center;
+.descripcion p{
             width: 700px;
+        }
+.carousel{
+            display: map-get($estilos,display );
+            flex-direction: map-get($estilos,flex-direction);
+            justify-content: map-get($estilos,justify-content);
+            align-content: map-get($estilos,align-content);
+            align-items: map-get($estilos,align-items);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+.carousel-inner{
+            justify-content: center;
+            width: 750px;
 
         }
-        .carousel-inner img{
+.carousel-inner img{
             width: 100%;
         }  
-.section2 h5 {
-    color: rgb(73, 7, 18);
-}
-.section2 p {
-    color: rgb(73, 7, 18);
-}
-.section2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.section2 img {
-    height: 500px;
-}
 
-
-.section3 {
-    grid-area: section3;
-    background-image: linear-gradient(to top, pink,white);
-    display:map-get($estilos,display);
-    flex-direction: map-get($estilos,flex-direction) ;
-    align-content: center;
-    justify-content: space-between;
-    align-items: map-get($estilos,align-items);
-}
-
-.section3 h3 {
-    font-family: 'Indie Flower', italic;
+        .section3 h3 {
+    font-family:$familiaFuente, italic;
     align-content: center;
     height: 180px;
     text-align: center;
     font-size: 40px;
-    color: rgb(240, 43, 76);
-    animation-name: parrafoMovil ;
-    position: relative;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    color:$colorFuente;
+  
 }
 
-.section3 p {
-    font-family: 'Indie Flower', italic;
-    color: rgb(104, 33, 45);
-    font-size: 30px;
-    padding: 20px;
-}
-
-.section3 p:hover {
-    transform: scale(1.5);
-}
-
-.button {
-    text-align: center;
-    font-size: 15px;
-    width: 150px;
-    height: 30px;
-    background-color: rgb(170, 21, 46);
-    border-bottom: rgb(73, 7, 18);
-    border-radius: 5px;
-    margin-bottom: 40px;
-    animation-name: btn;
-    position: relative;
-    animation: btn 5s infinite;
-}
- 
-@keyframes parrafoMovil{
-    0%   { left:0px; top:0px;}
-    25%  { left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0px; top:200px;}
-    100% {left:0px; top:0px;}
-  }
- 
 @media (max-width: 375px) {
-   
-    h1 {
+.container_main {
+    font-family:$familiaFuente ;
+    color: $colorFuente;
+    height: auto;
+    padding: 10px;
+    background-image: linear-gradient(to top, pink,white);
+}
+.header{
+    justify-content: space-around;
+} 
+.header p{
+margin-left: 1rem;
+    h1{
         font-size: 30px;
     }
-    h3 {
-        font-family: 'Indie Flower', italic;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 10px;
+    font-size: .8em;
+   }
+.section1{
+    margin: 0 auto;
+}
+.descripcion p{
+    width: auto;
+    
+}
+  
+.section2 {
+    height: 300px;
+}
+.carousel-inner img{
+    
+    height: 300px;
+    width: 100%;
+}
+
+.section3 h3 {
+        font-family:$familiaFuente;
         align-content: center;
         height: 180px;
         text-align: center;
         font-size: 40px;
-        color: rgb(43, 240, 224);
+        color:$colorFuente;
        
 }   
-.descripcion p{
-    width: 340px;
-    padding-left: 10px;
-    padding-top: 90px;
+
 }
- .section1{ margin-top: 75px;
-            padding-top: 30px;
-          
-            @keyframes parrafoMovil{
-                0%   { left:0px; top:0px;}
-                25%  { left:0px; top:0px;}
-                50%  {left:0px; top:0px;}
-                75%  {left:0px; top:0px;}
-                100% {left:0px; top:0px;}
-    
-        }
-        }
-.section2 {
-            height: 300px;
-        }
-.carousel-inner img{
-            
-            height: 300px;
-            width: 100%;
-            
-
-        }
-
-    }
-@media (max-width: 425px) {
-   
-        h1 {
-            font-size: 30px;
-        }
-        h3 {
-            font-family: 'Indie Flower', italic;
-            align-content: center;
-            height: 180px;
-            text-align: center;
-            font-size: 40px;
-            color: rgb(43, 240, 224);
-           
-    }   
- .descripcion p{
-        width: 390px;
-        padding-left: 10px;
-        padding-top: 90px;
-    }
-.section1{ 
-                margin-top: 75px;
-                padding-top: 30px;
+ @media (max-width: 425px) {
+ .container_main {
+                font-family:$familiaFuente ;
+                color: $colorFuente;
+                height: auto;
+                padding: 10px;
+                background-image: linear-gradient(to top, pink,white);
+            }
+.header{
+                justify-content: space-around;
+            } 
+.header p{
+            margin-left: 1rem;
+                h1{
+                    font-size: 30px;
+                }
+            }
+.navbar-expand-lg .navbar-nav .nav-link{
+                padding: 10px;
+                font-size: .8em;
+               }
+.section1{
+                margin: 0 auto;
+            }
+.descripcion p{
+                width: auto;
+               
+            }
               
- @keyframes parrafoMovil{
-                    0%   { left:0px; top:0px;}
-                    25%  { left:0px; top:0px;}
-                    50%  {left:0px; top:0px;}
-                    75%  {left:0px; top:0px;}
-                    100% {left:0px; top:0px;}
-        
-            }
-            }
- .section2 {
+.section2 {
                 height: 300px;
-            }
-.carousel-inner img{
+  }
+ .carousel-inner img{
                 
                 height: 300px;
                 width: 100%;
-                
-    
-            }
+     
+            
+ }
+            
+ .section3 h3 {
+                    font-family:$familiaFuente;
+                    align-content: center;
+                    height: 180px;
+                    text-align: center;
+                    font-size: 40px;
+                    color:$colorFuente;
+                   
+            }   
+           
+                    }
 
-        }
- @media (max-width: 768px){
- 
- .section3 p{
-                font-size: 20px;
+@media (max-width: 768px) {
+.container_main {
+                    font-family:$familiaFuente ;
+                    color: $colorFuente;
+                    height: auto;
+                    padding: 10px;
+                    background-image: linear-gradient(to top, pink,white);
+                }
+.header{
+       justify-content: space-around;
+      } 
+ .header p{
+        margin-left: 1rem;
+         h1{ 
+        font-size: 30px;
             }
- .section3 p:hover {
-                transform: scale(1);
-            }
+      }
+ .navbar-expand-lg .navbar-nav .nav-link{
+      padding: 10px;
+     font-size: .8em;
+      }
+.section1{
+      margin: 0 auto;
+  }
+ .descripcion p{
+     width: 100% auto;
+                       
+ }
+                          
+ .section2 {
+    height: 300px;
+     }
+ .carousel-inner img{
+                            
+    height: 300px;
+    width: 100%;
+                            
+                        
     }
-@media (max-width: 1024px){
-            @keyframes parrafoMovil{
-                0%   { left:0px; top:0px;}
-                25%  { left:0px; top:0px;}
-                50%  {left:0px; top:0px;}
-                75%  {left:0px; top:0px;}
-                100% {left:0px; top:0px;}
-    
-        }
-    }
+                        
+.section3 h3 {
+    font-family:$familiaFuente;
+    align-content: center;
+    height: 180px;
+    text-align: center;
+    font-size: 40px;
+    color:$colorFuente;
+                               
+  }   
+  }
+
+

@@ -5,101 +5,56 @@
     padding: 0;
     margin: 20px auto 0 auto;
   }
-
-
-.formulario {
-    display: flex;
-    align-content: center;
-   margin-top: 100px;
-    width: 425px;
-    height: 450px;
-    flex-direction: row;
-}
- .container_formulario{
-       background-image: linear-gradient(to top, pink,white);
+    .container_formulario{
+//     display: flex;
+//     flex-direction: row;
        padding-top: 100px;
-}
-.formulario label {
-    margin: 20px;
-    display: inline-block;
-    vertical-align: middle;
+ }
+ .row{
+    width: auto;
+ }
+// .col-md-6{
+//     padding-left: 50px;
+// }
+
+// @media (max-width: 375px){
+
+//   .container_formulario{
+//     display: flex;
+//     flex-direction: column;
+
+//   } 
   
-}
-.formulario textarea{
-    margin: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 30px;
-}
-.formulario form{
-    display: flex;
-    flex-direction: row;
-    height:auto;
-}
-.items input{
-    margin: 5px;
-}
-.video{
-    
-    padding-top:60px;
-    padding-bottom:30px;
-    padding-left: 60px;
-}
-@media(max-width:375px){
-    .linea{
-        margin-top: 90px;
-    }
-   
-   
-    .formulario {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        margin-top: 10px;
-        margin-left: 0px;
-        width: 375px;
-        height: 1000px;
+//   .iframe{
+//     width: 360px;
+//   }
         
-     }
-    .formulario form {
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start ;
-        }
-        .items input{
-               margin: 5px;
-        }
-        
-        label.items{
-        width:350px ;
-            align-items:flex-start;
-            display: flex;
-            flex-direction: column;
-            margin-top: 100px;
-    }
+// }
+// @media (max-width: 425px){
 
+//     .container_formulario{
+//       display: flex;
+//       flex-direction: column;
+  
+//     }  
+          
+//   }
+//   @media (max-width: 768px){
 
-    .area{
-        padding-right: 0px;
-        display: flex;
-        flex-direction: column;
-        align-content: auto;
-        width: 360px;
-        padding-left: 70px;
-    }
-     textarea{
-        width: 200px;
-        align-content: auto;
+//     .container_formulario{
+//       display: flex;
+//       flex-direction: column;
+  
+//     }  
+          
+//   }
+//   @media (max-width: 1024px){
 
-    }
-    .video{
-    
-        padding-top:60px;
-        padding-bottom:30px;
-        padding-left: 10px;
-    }
-}
-    
-        
-
-    
+//     .container_formulario{
+//       display: flex;
+//       flex-direction: column;
+  
+//     }  
+          
+//   }
+      
