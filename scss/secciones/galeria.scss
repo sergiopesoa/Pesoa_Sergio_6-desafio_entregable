@@ -79,6 +79,18 @@
     height: auto;
     }
 }
+.imagenesGaleria:hover {
+    transition: .3s;
+    filter: grayscale(0%);
+    transform: scale(1);
+}
+
+.imagenesGaleria {
+    filter: grayscale(0%);
+}
+.imagenesGaleria img{
+    width: auto;
+}
 @media (max-width: 425px){
     .galeria {
        margin-top: 100px;
