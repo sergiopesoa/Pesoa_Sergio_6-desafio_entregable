@@ -25,7 +25,7 @@
 .imagenesGaleria:hover {
     transition: .3s;
     filter: grayscale(0%);
-    transform: scale(1.5);
+    // transform: scale(1.5);
 }
 
 .imagenesGaleria {
@@ -62,7 +62,7 @@
        margin-top: 100px;
        height: auto;
         h2{
-            width: 240px;
+            width: auto;
 
         }
     }
@@ -79,15 +79,15 @@
     height: auto;
     }
 }
-.imagenesGaleria:hover {
-    transition: .3s;
-    filter: grayscale(0%);
-    transform: scale(1);
-}
-
-.imagenesGaleria {
-    filter: grayscale(0%);
-}
+// .imagenesGaleria:hover {
+//     transition: .3s;
+//     filter: grayscale(0%);
+// //     transform: scale(1,5);
+// // }
+// }
+// .imagenesGaleria {
+//     filter: grayscale(100%);
+// }
 .imagenesGaleria img{
     width: auto;
 }
@@ -133,6 +133,7 @@
 .container_galeria{
     margin-top: 140px;
     height: auto;
+    width: auto;
     }
 }
 @media (max-width: 1024px){
