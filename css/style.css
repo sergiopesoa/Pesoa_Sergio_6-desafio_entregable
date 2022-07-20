@@ -355,6 +355,10 @@
   align-items: center;
   align-content: center; }
 
+@media (max-width: 320px) {
+  .imagenesGaleria img {
+    width: 80%; } }
+
 @media (max-width: 375px) {
   .galeria {
     margin-top: 100px;
