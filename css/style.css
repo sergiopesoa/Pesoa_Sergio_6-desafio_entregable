@@ -443,6 +443,11 @@
 .row {
   width: auto; }
 
+.plano {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .col-12 {
   padding-top: 15px;
   padding-left: 0px;
